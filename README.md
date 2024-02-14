@@ -1,5 +1,4 @@
-
-![Fondo Tutorial Memento Mori](https://github.com/pedrobaringo/kids-on-bikes-csb-es/assets/148097688/cc01b23d-0e75-4d58-96fe-232523b7f4f4)
+![Fondo Tutorial Memento Mori ES](https://github.com/pedrobaringo/memento-mori-csb-es/assets/148097688/fa8d4bbb-5451-4cca-a127-0e49e6cfc6a6)
 # Fichas para Memento Mori en Custom System Builder
 
 ## Tabla de Contenido
@@ -17,7 +16,6 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Kids on Bike
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace:
 
-[![Video del tutorial](http://img.youtube.com/vi/vsIx_xzhEPo/0.jpg)](http://www.youtube.com/watch?v=vsIx_xzhEPo "Tutorial Foundry-Kids on Bikes")
 
 
 ## Instalación
