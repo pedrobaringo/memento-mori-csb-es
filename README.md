@@ -16,7 +16,7 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Memento Mori
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace:
 
-
+[![Video del tutorial](http://img.youtube.com/vi/G_zGv9r0wNY/0.jpg)](http://www.youtube.com/watch?v=G_zGv9r0wNY "Tutorial Foundry-Memento Mori")
 
 ## Instalación
 Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/memento-mori-csb-es/releases/latest/download/module.json
