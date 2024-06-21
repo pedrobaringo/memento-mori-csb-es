@@ -1,5 +1,5 @@
 Hooks.once("init", function() {
-    console.log("Initializing Raven module")
+    console.log("Initializing Memento Mori module")
 
     game.settings.register("memento-mori-csb-es", "firstTimeStart", {
        name: "Forzar mensaje de Bienvenida",
