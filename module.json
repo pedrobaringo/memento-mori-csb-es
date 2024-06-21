@@ -1,7 +1,7 @@
 {
   "id": "memento-mori-csb-es",
   "title": "Memento Mori (CSB) (ES)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -11,7 +11,10 @@
       {
         "id": "custom-system-builder",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+		"minimum": "3.1.2",
+		"verified": "3.1.2"
+		}
       }
     ],
     "recommends": [
@@ -32,7 +35,8 @@
     }
   ],
   "esmodules": [
-		"./modules/mementomori.js"
+		"./modules/mementomori.js",
+   "./modules/welcomemessage.js"
 	],
  "styles": [
     "./assets/MementoMori.css"
@@ -52,5 +56,5 @@
   ],
   "url": "https://github.com/pedrobaringo/memento-mori-csb-es",
   "manifest": "https://github.com/pedrobaringo/memento-mori-csb-es/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/memento-mori-csb-es/releases/download/1.0.0/memento-mori-csb-es.zip"
+  "download": "https://github.com/pedrobaringo/memento-mori-csb-es/releases/download/1.0.1/memento-mori-csb-es.zip"
 }
