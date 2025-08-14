@@ -33,6 +33,12 @@
  	background-size: 100% 100%;
 	font-family:'BookAntiqua';
 }
+.custom-dialog .window-content {
+	background: url(../assets/images/FondoMementoMori2.webp);
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	font-family:'BookAntiqua';
+}
 .custom-system-actor-content {
 	padding:20px;
 }
@@ -420,41 +426,41 @@ hr {
  	background-size: 100% 100%;
 	background-clip: border-box;
 }
-.custom-system-user-inputs  label{
+.application .custom-system-user-inputs  label{
 	font-family: 'BookAntiqua';
 	text-align:center;
 	font-size:17px;
 }
-.custom-system-user-inputs {
+.application .custom-system-user-inputs {
 	text-align:center;
 }
-.custom-system-user-inputs thead {
+.application .custom-system-user-inputs thead {
 	display:none;
 }
-.custom-system-user-inputs {
+.application .custom-system-user-inputs {
 	background-color: #ff000000;
 	border:0px;
 	color: black;
 }
-.custom-system-user-input-button {
+.application .custom-system-user-input-button {
 	font-family:'BookAntiqua';
 	font-size:15px;
 	width:auto;
     border: 2px ridge black;;
 }
-.custom-system-user-input-button[data-action="sub-10"] {
+.custom-system-user-input-button[data-inputaction="sub-10"] {
 	display:none;
 }
-.custom-system-user-input-button[data-action="add-10"] {
+.custom-system-user-input-button[data-inputaction="add-10"] {
 	display:none;
 }
-.custom-system-user-input-block {
+.application .custom-system-user-input-block {
 	text-align:center;
 }
-.custom-system-user-inputs tr:nth-child(even) {
+.application .custom-system-user-inputs tr:nth-child(even) {
 	background-color:  #ff000000;
 }
-.custom-system-user-input-block input[type="checkbox"]{
+.application .custom-system-user-input-block input[type="checkbox"]::before{
 	-webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -466,17 +472,34 @@ hr {
     height: 20px;
     cursor: pointer;
 }
-.custom-system-user-input-block input[type="checkbox"]:checked{
+.application .custom-system-user-input-block input[type="checkbox"]:checked::before{
 	background: url(../assets/images/Checkbox3_filled.webp);
 	background-size:20px;
 	-webkit-filter: none !important;
 }
-.custom-system-user-input-block input[type="number"] {
+.application .custom-system-user-input-block input[type="checkbox"]::after{
+	-webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../assets/images/Checkbox3.webp);
+	background-size:20px;
+	background-repeat: no-repeat;
+	flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.application .custom-system-user-input-block input[type="checkbox"]:checked::after{
+	background: url(../assets/images/Checkbox3_filled.webp);
+	background-size:20px;
+	-webkit-filter: none !important;
+}
+.application .custom-system-user-input-block input[type="number"] {
 	width:30px;
 	font-family:'BookAntiqua';
 	font-size:15px;
 }
-.custom-system-user-input-block select {
+.application .custom-system-user-input-block select {
 	width:50px;
 	font-family:'BookAntiqua';
 	font-size:15px;
