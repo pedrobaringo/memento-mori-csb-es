@@ -36,19 +36,19 @@
 .custom-system-actor-content {
 	padding:20px;
 }
-.titlememento {
+.actor-v1 .titlememento {
 	font-family:'MementoMori';
 	font-size:35px;
 	height:30px;
 	margin:0px;
 }
-.tabpanel nav{
+.actor-v1 .tabpanel nav{
 	font-family:'MementoMori';
 	font-size: 30px;
 	padding:0px;
 	color: #575757;
 }
-.tabpanel .item.active{
+.actor-v1 .tabpanel .item.active{
 	text-decoration: underline;
 	color:black;
 }
@@ -61,19 +61,19 @@
 	border-top:0px;
 	border-bottom: 2px solid #bdb6b4;
 }
-.imageorgans{
+.actor-v1 .imageorgans{
 	height:150px;
 	margin-top:10px;
 	margin-left:0px;
 }
-.imageorgans img{
+.actor-v1 .imageorgans img{
 	border:0px;
 	max-height:150px;
 	max-width:150px;
 	width:100%;
 	height:100%;
 }
-.checkboxstyle1  input[type="checkbox"] {
+.actor-v1 .checkboxstyle1  input[type="checkbox"] {
     -webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -85,16 +85,16 @@
     height: 35px;
     cursor: pointer;
 }
-.checkboxstyle1 input[type="checkbox"]:checked {
+.actor-v1 .checkboxstyle1 input[type="checkbox"]:checked {
     background: url(../assets/images/Checkbox1_filled.webp);
 	background-size:35px;
 	-webkit-filter: none !important;
 }
-.checkboxstyle1 {
+.actor-v1 .checkboxstyle1 {
 	margin:5px;
 	gap:0px;
 }
-.checkboxstyle1blocked input[type="checkbox"] {
+.actor-v1 .checkboxstyle1blocked input[type="checkbox"] {
     -webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -106,38 +106,38 @@
     height: 35px;
     cursor: pointer;
 }
-.checkboxstyle1blocked input[type="checkbox"]:checked {
+.actor-v1 .checkboxstyle1blocked input[type="checkbox"]:checked {
     background: url(../assets/images/Checkbox1_filled.webp);
 	background-size:35px;
 	-webkit-filter: none !important;
 }
-.checkboxstyle1blocked {
+.actor-v1 .checkboxstyle1blocked {
 	margin:5px;
 	gap:0px;
 }
-.panelchecks1 {
+.actor-v1 .panelchecks1 {
 	display:grid;
 	grid-template-columns: auto auto auto;
 	gap:0px;
 }
-.textorgans {
+.actor-v1 .textorgans {
 	margin:0px;
 }
-.panelblood {
+.actor-v1 .panelblood {
 	margin-top: 30px;
 }
-.panelmarkdream {
+.actor-v1 .panelmarkdream {
 	display:grid;
 	grid-template-columns: 10% 85%;
 }
-.panelmarkdreamita {
+.actor-v1 .panelmarkdreamita {
 	display:grid;
 	grid-template-columns: 15% 80%;
 }
-.dremainput {
+.actor-v1 .dremainput {
 	width: 100%;
 }
-.dreaminput input{
+.actor-v1 .dreaminput input{
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
 	border-color: #bdb6b4;
@@ -146,7 +146,7 @@
 	border-right:0px;
 	border-radius: 0px 0px 0px 0px;
 }
-.stigmacheck input[type="checkbox"] {
+.actor-v1 .stigmacheck input[type="checkbox"] {
     -webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -158,21 +158,21 @@
     height: 18px;
     cursor: pointer;
 }
-.stigmacheck input[type="checkbox"]:checked {
+.actor-v1 .stigmacheck input[type="checkbox"]:checked {
     background: url(../assets/images/Checkbox2_filled.webp);
 	background-size:25px;
 	-webkit-filter: none !important;
 	background-repeat: no-repeat;
 }
-.stigmacheck {
+.actor-v1 .stigmacheck {
 	margin:2px;
 	gap:0px;
 }
-.panelstigma {
+.actor-v1 .panelstigma {
 	display:grid;
 	grid-template-columns: auto auto;
 }
-.panelstigma2 {
+.actor-v1 .panelstigma2 {
 	border-top:1.5px solid;
 	border-left: 1.5px solid;
 	border-color: #bdb6b4;
@@ -180,7 +180,7 @@
 	margin-top:30px;
 	border-radius: 5px 0px 0px 0px;
 }
-.panelmark {
+.actor-v1 .panelmark {
 	padding-left:10px;
 	padding-bottom:10px;
 	padding-top: 5px;
@@ -189,12 +189,12 @@
 	border-color: #bdb6b4;
 	border-radius: 0px 0px 0px 5px;
 }
-.panelchecks2 {
+.actor-v1 .panelchecks2 {
 	display:grid;
 	grid-template-columns: auto auto auto auto;
 	gap:0px;
 }
-.organstigmacheck input[type="checkbox"] {
+.actor-v1 .organstigmacheck input[type="checkbox"] {
     -webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -206,17 +206,17 @@
     height: 15px;
     cursor: pointer;
 }
-.organstigmacheck input[type="checkbox"]:checked {
+.actor-v1 .organstigmacheck input[type="checkbox"]:checked {
     background: url(../assets/images/Checkbox3_filled.webp);
 	background-size:15px;
 	-webkit-filter: none !important;
 	background-repeat: no-repeat;
 }
-.organstigmacheck {
+.actor-v1 .organstigmacheck {
 	margin:2px;
 	gap:0px;
 }
-.organstigmacheckfake input[type="checkbox"] {
+.actor-v1 .organstigmacheckfake input[type="checkbox"] {
     -webkit-appearance: initial;
     appearance: initial;
 	margin:0px;
@@ -228,28 +228,28 @@
     height: 15px;
     cursor: pointer;
 }
-.organstigmacheckfake input[type="checkbox"]:checked {
+.actor-v1 .organstigmacheckfake input[type="checkbox"]:checked {
     background: url(../assets/images/Checkbox3_fake.webp);
 	background-size:15px;
 	-webkit-filter: none !important;
 	background-repeat: no-repeat;
 }
-.organstigmacheckfake {
+.actor-v1 .organstigmacheckfake {
 	margin:2px;
 	gap:0px;
 }
-.panelboxes {
+.actor-v1 .panelboxes {
 	font-size:12px;
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:5px;
 }
-.panelbond {
+.actor-v1 .panelbond {
 	display:grid;
 	grid-template-columns: auto 40% 44%;
 	gap:5px;
 }
-.bondinputcorrupted {
+.actor-v1 .bondinputcorrupted {
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
 	border-color: #bdb6b4;
@@ -259,7 +259,7 @@
 	border-radius: 0px 0px 0px 0px;
 	text-decoration: line-through;
 }
-.bondinput input{
+.actor-v1 .bondinput input{
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
 	border-color: #bdb6b4;
@@ -268,44 +268,44 @@
 	border-right:0px;
 	border-radius: 0px 0px 0px 0px;
 }
-.panelbondtitle {
+.actor-v1 .panelbondtitle {
 	font-size: 17px;
 	font-weight: 700;
 	margin-top: 19px;
 }
-.panelbondtitle input{
+.actor-v1 .panelbondtitle input{
 	font-size: 17px;
 	font-weight: 700;
 }
-.panelkey {
+.actor-v1 .panelkey {
 	margin-top: 19px;
 }
-.titlegift {
+.actor-v1 .titlegift {
 	font-weight:700;
 	font-size: 20px;
 	align-items:flex-start;
 }
-.panelgift {
+.actor-v1 .panelgift {
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:5px;
 }
-.panelchecks7 {
+.actor-v1 .panelchecks7 {
 	display:grid;
 	grid-template-columns: auto auto auto auto auto auto auto;
 	gap:0px;
 }
-.panelvirtuetitle {
+.actor-v1 .panelvirtuetitle {
 	font-size: 17px;
 	font-weight: 700;
 	margin-top: 12px;
 }
-.panelvirtuetitle input{
+.actor-v1 .panelvirtuetitle input{
 	font-size: 17px;
 	font-weight: 700;
 }
 
-.charname input{
+.actor-v1 .charname input{
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
 	border-color: #bdb6b4;
@@ -315,42 +315,42 @@
 	border-radius: 0px 0px 0px 0px;
 	pointer-events: auto;
 }
-.checksnamepan {
+.actor-v1 .checksnamepan {
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:10px;
 	margin-top:-55px;
 	width:100px;
 }
-.header-fields {
+.actor-v1 .header-fields {
 	display: flex;
 	flex-direction: column;
 }	
-.custom-system-sheet-actions {
+.actor-v1 .custom-system-sheet-actions {
 	order:1;
 }
-.custom-system-customHeader {
+.actor-v1 .custom-system-customHeader {
 	order:3;
 }
-.charname {
+.actor-v1 .charname {
 	order:2;
 	width:auto;
 	padding-left:100px;
 	z-index:100;
 	pointer-events: none;
 }
-.panelgiftname {
+.actor-v1 .panelgiftname {
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:10px;
 }
-.panelequipment {
+.actor-v1 .panelequipment {
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:10px;
 	margin-left:10px;
 }
-.notesstyle {
+.actor-v1 .notesstyle {
 	color: black;
 	font-size: 15px;
 }
@@ -482,21 +482,21 @@ hr {
 	font-size:15px;
 	text-align:center;
 }
-.rightpanel{
+.actor-v1 .rightpanel{
 	border-left:1.5px solid #bdb6b4;
 }
-.panelboxesnam {
+.actor-v1 .panelboxesnam {
 	font-size:12px;
 	display:grid;
 	grid-template-columns: auto auto;
 	gap:5px;
 	height:15px;
 }
-.pnjstats label {
+.actor-v1 .pnjstats label {
 	font-family:'MementoMori';
 	font-size:35px;
 }
-.pnjstats input{
+.actor-v1 .pnjstats input{
 	font-size: 25px;
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
@@ -506,13 +506,13 @@ hr {
 	border-right:0px;
 	border-radius: 0px 0px 0px 0px;
 }
-.panelhp {
+.actor-v1 .panelhp {
 	grid-template-columns: auto 1% auto;
 }
-.panelstat {
+.actor-v1 .panelstat {
 	grid-template-columns: 40% 60%;
 }
-.tachadotext {
+.actor-v1 .tachadotext {
 	display:block;
 	background-color: #FF000000;
 	border-bottom:1.5px solid;
@@ -522,4 +522,200 @@ hr {
 	border-right:0px;
 	border-radius: 0px 0px 0px 0px;
 	margin-top: -13px;
+}
+.actor-v1 .panelintro {
+	position:relative;
+}
+.actor-v1 .introtextcss {
+	position:absolute;
+	font-family:'BookAntiqua';
+	top:15px;
+	left:10px;
+	width:40%;
+	background-color:white;
+}
+.actor-v1 .introtextcss p{
+	font-family:'BookAntiqua';
+	font-size:15px;
+}
+.actor-v1 .marginzero {
+	margin:0px;
+}
+.actor-v1 .textspact {
+	font-family:'BookAntiqua';
+	font-size:15px;
+}
+.actor-v1 .preguntastext {
+	font-weight:700;
+}
+.actor-v1 .panelpregunta {
+	gap:0px;
+}
+.actor-v1 .panelpactchecks {
+	display:grid;
+	grid-template-columns: auto auto;
+	gap:0px;
+}
+.actor-v1 .checkboxpacto input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    margin: 0px;
+    background: url(../assets/images/Checkbox1.webp);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    flex: 0 0 25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.actor-v1 .checkboxpacto input[type="checkbox"]:checked {
+    background: url(../assets/images/Checkbox1_filled.webp);
+    background-size: 25px;
+    -webkit-filter: none !important;
+}
+.actor-v1 .tabmarcas table{
+	background:transparent;
+	border:0px;
+}
+.actor-v1 .tabmarcas table tr{
+	display:grid;
+	grid-template-columns: auto 5%;
+}
+.actor-v1 .tabmarcas table tr td:nth-child(1){
+	order:1;
+	grid-column: 1/span 1;
+}
+.actor-v1 .tabmarcas table tr td:nth-child(2){
+	order:3;
+	grid-column: 1/span 2;
+}
+.actor-v1 .tabmarcas table tr td:nth-child(3){
+	order:4;
+	grid-column: 1/span 2;
+	border-bottom:1px solid black;
+}
+.actor-v1 .tabmarcas table tr td:nth-child(4){
+	order:2;
+	grid-column: 2/span 1;
+}
+.actor-v1 .tabmarcas table tr:first-child{
+	display:none;
+}
+.actor-v1 .marcaname input[type="text"]{
+	background:transparent;
+	border-radius:0px;
+	border-width:0px 0px 1px 0px;
+	font-weight:700;
+	font-size:16px;
+}
+.actor-v1 .descmarca p{
+	margin:0px;
+}
+.actor-v1 .keymarca p{
+	margin:0px;
+}
+.actor-v1 .marginpreguntas {
+	margin-top:10px;
+}
+.actor-v1 .checkboxpacto {
+	align-items: flex-start;
+	margin-top:5px;
+}
+.actor-v1 .marginzero {
+	margin:0px;
+}
+.actor-v1 .checkverdfinwhite {
+	width:35px;
+	height:35px;
+}
+.actor-v1 .smallertitle {
+	font-size:30px;
+}
+.actor-v1 .numinput input {
+    background-color: #FF000000;
+    border-bottom: 1.5px solid;
+    border-color: #bdb6b4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+.actor-v1 .panelverdfinal {
+	display:grid;
+	gap:0px;
+	grid-template-columns: 10% 40% 10% 40%;
+}
+.actor-v1 .panelsubfinal {
+	display:grid;
+	gap:10%;
+	grid-template-columns: 40% 40%
+}
+.actor-v1 .gapzero {
+	display:grid;
+	gap:0px;
+}
+.actor-v1 .craneoimg {
+	max-width:70%;
+	margin-top:20px;
+}
+.actor-v1 .tachadotextlarge p{
+	text-decoration: line-through;
+}
+.window-app .window-content img {
+	border:0px;
+}
+.sheet.journal-entry .journal-entry-content {
+	background: url(../assets/images/FondoMementoMori2.webp);
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	font-family:'BookAntiqua';
+}
+.sheet.journal-entry .journal-entry-page h1{
+	font-family:'MementoMori';
+	font-size:35px;
+	height:55px;
+}
+.sheet.journal-entry .journal-entry-page h2{
+	font-family:'MementoMori';
+	font-size:30px;
+	height:50px;
+}
+.sheet.journal-entry .journal-entry-page h3{
+	font-family:'MementoMori';
+	font-size:25px;
+	height:40px;
+}
+.actor-v1 .markpanelimage {
+	display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 5px;
+}
+.actor-v1 .sheet header.sheet-header .markimage img {
+	display:block;
+	object-fit: cover;
+	width:auto;
+	height:50px;
+}
+.actor-v1 .panelmarkdream {
+    display: grid;
+    grid-template-columns: 15% 80%;
+}
+.actor-v1 .panelmarkdreamdream {
+	display: grid;
+    grid-template-columns: 10% 90%;
+}
+.actor-v1 .dreaminput {
+	margin-top:2px;
+}
+.actor-v1 .markinput input {
+    background-color: #FF000000;
+    border-bottom: 1.5px solid;
+    border-color: #bdb6b4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+.actor-v1 .introtextcss {
+	padding:5px 15px;
 }

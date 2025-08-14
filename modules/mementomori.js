@@ -55,10 +55,7 @@ dice3d.addColorset({
     description: 'White',
     category: 'Memento Mori Dice',
     foreground: '#e0e0e0',
-    background: '#e0e0e0',
-    outline: 'white',
-    texture: 'stone',
-    material: 'glass'
+    background: '#e0e0e0'
 });
 dice3d.addColorset({
     name: 'blackMM',
@@ -66,8 +63,6 @@ dice3d.addColorset({
     category: 'Memento Mori Dice',
     foreground: 'black',
     background: 'black',
-    outline: 'black',
-    texture: 'stone',
-    material: 'glass'
+    outline: 'black'
 });
 });
