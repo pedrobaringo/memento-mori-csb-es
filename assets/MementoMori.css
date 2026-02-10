@@ -6,6 +6,16 @@
     font-family: "BookAntiqua";
     src: url("../assets/fonts/BKANT.TTF");
 }
+.charname {
+	font-family:'MementoMori';
+	font-weight: normal;
+	margin:0px;
+}
+.charname input[type=text]{
+    font-family: 'MementoMori';
+    font-weight: normal;
+    font-size: 50px;
+}
 .character .grid {
 	margin-top:0px;
 	margin-bottom:0px;
